@@ -29,3 +29,9 @@ SCORE_COLOR = 'cyan' # color
 
 # tkint turtle size correction
 TKTURTLE_DX = 20
+
+# pause key
+PAUSE_KEY = 'p'
+# restart key
+RESTART_KEY = 'r'
+MESSAGE_COLOR = 'green'

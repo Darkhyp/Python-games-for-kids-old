@@ -22,6 +22,8 @@ class Ball(threading.Thread):
         self.score_turtle = None
         self.printscore()
 
+        self.isPause = False
+
         self.daemon = True  # close thread correctly!!!
 
     def printscore(self):
@@ -74,5 +76,6 @@ class Ball(threading.Thread):
                 time.sleep(CONFIGS.BALL_DT)
             except Exception as e:
                 print(e)
-            self.move()
+            if not self.isPause:
+                self.move()
             t.update()
