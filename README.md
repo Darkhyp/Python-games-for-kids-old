@@ -1,2 +1,5 @@
 # Python-games-for-kids-old
-snake eats snacks
+
+Tennis game in PYTHON using turtle module
+
+# Author A.v. Korovin [a.v.korovin73@gmail.com]
